@@ -498,18 +498,29 @@ html {
 }
 element.style {
 }
-.cta-form-button {
-    display: flex;
+.cta-form-link {
+    display: flex
+;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    min-width: 263px;
-    max-width: 420px;
     padding: 24px 32px;
+    gap: 10px;
     width: 100%;
-    background: linear-gradient(80.23deg, rgb(232, 101, 45) -4.25%, rgb(232, 45, 210) 28.23%, rgb(166, 80, 255) 69.35%, rgb(0, 157, 255) 116.49%);
+    height: 72px;
+    min-width: 263px;
+    background: linear-gradient(80.23deg, #e8652d -4.25%, #e82dd2 28.23%, #a650ff 69.35%, #009dff 116.49%);
     border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    transition: 200ms ease-in;
 }
+
 /* footer section */
 .page-footer {
   padding: 32px 0px;
